@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+  <head>
+      
+      <style>
+ .button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 23px;
+  background: #ab2222;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+     margin-left: 15%;
+}
+
+.button:hover {
+  background: #701818;
+  text-decoration: none;
+         margin-left: 15%;
+
+          }
+
+          
+          
+          
+          
+          
+          
+          /* Tło */
+           #grad1 {
+
+          /* IE10+ */ 
+background-image: -ms-linear-gradient(bottom right, #C70808 0%, #998923 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom right, #C70808 0%, #998923 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom right, #C70808 0%, #998923 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #C70808), color-stop(100, #998923));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom right, #C70808 0%, #998923 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to top left, #C70808 0%, #998923 100%);
+          }
+          
+          
+          
+          
+          
+                    /* Tło jednolite*/
+
+          #kolor1 {
+                 background-color: #9B6769;
+          }
+          
+          #kolor2 {
+             background-color:  #E75B57;
+          }
+          
+          
+                    /* Czcionki */
+          
+          h2 {
+              color:white;
+              font-family: "Lucida Console", Times, serif;
+              margin-left: 60px;
+                font-size: 40px;
+          }
+          
+           h3 {
+              color:white;
+              font-family: "Lucida Console", Times, serif;
+              margin-left: 60px;
+                font-size: 15px;
+          }
+          
+          h4 {
+              color:white;
+              font-family: "Consolas", Times, sans-serif;
+              margin-left: 60px;
+                font-size: 15px;
+          }
+          
+            h5 {
+              color:black;
+              font-family: "Consolas", Times, serif;
+              margin-left: 60px;
+                font-size: 60px;
+          }
+
+          
+          h7 {
+              color:black;
+              font-family: "Carrois Gothic SC", sans-serif;
+                font-size: 20px;
+          }
+          
+           h8 {
+              color:grey;
+              font-family: "Montserrat", sans-serif;
+                font-size: 13px;
+          }
+          
+           h9 {
+              color:grey;
+              font-family: "Montserrat", sans-serif;
+                font-size: 50px;
+               width:100%;
+          }
+           h10 {
+              color:black;
+              font-family: "Montserrat", sans-serif;
+                font-size: 40px;
+               width:100%;
+          }
+                    /* Boxy */
+          
+          div.szary{
+                background-color: #9B6769;
+                height: 300px;
+                width: 94%;
+                margin-left: 3%;
+                margin-right: 3%;
+              float: none;
+              
+            }
+          
+            div.bialy1{
+                background-color: #FFFFFF;
+                height: 300px;
+                width: 29.3%;
+                    float: left;
+
+            }
+          div.bialy2{
+                background-color: #FFFFFF;
+                height: 300px;
+                width: 29.3%;
+                  float: left;
+
+            }
+          div.bialy3{
+                background-color: #FFFFFF;
+                height: 300px;
+                width: 29.4%;
+                  float: left;
+            }
+                    div.bialy4{
+                background-color: #FFFFFF;
+                height: 300px;
+                width: 3%;
+                  float: left;
+            }
+          
+           div.duzyb{
+                background-color: #FFFFFF;
+                height: 430px;
+                width: 100%;
+               text-align: center;
+              
+            }
+          
+           div.duzyb2{
+                background-color: #9B6769;
+                height: 300px;
+                width: 100%;
+                             text-align: center;
+
+            }
+          
+          div.czysci{
+              clear:left;
+          }
+          
+          
+                    /* Formsy */
+          
+          input[type=text], select {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+              float: left;
+                  margin-left: 3%;
+
+}
+
+input[type=submit] {
+    width: 18%;
+    background-color: firebrick;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+                  float: left;
+    margin-left: 3%;
+
+}
+
+
+
+
+}</style>
+      
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Robert Kamiński">
+
+    <title>Hmm...Am! - Landing page</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      
+      
+  </head>
+  <body>
+      <div id="kolor2">
+      
+      
+   <br/>
+      <br/>
+         <br/>
+
+      <div class="szary">
+                      <img src="pizza.jpeg" alt="pizza" style="height:300px" align="right">
+
+            <br/>
+
+    <h3>Witamy w</h3>
+      <h2>Hmm...Am!</h2>
+          <h4>Twój najlepszy kompan do gotowania!</h4>
+                      <br/>
+                        <input type="button" class="button" value="Stwórz konto">
+
+        </div>
+          
+
+          <h5>W zakres naszych usług wchodzą:</h5>
+                                      <br/>
+          
+          <div class="bialy4"></div>
+
+          <div class="bialy1">
+                          <br/>
+
+          <img src="ikona1.png" alt="pizza"  ali>
+              <br/>
+              <h7>Wielka baza przepisów</h7>
+                  <p>
+              <h8>Nasza baza przepisów pozwoli Ci na kompleksowe wyszukiwanie dostosowane do Twoich potrzeb i preferencji.
+                  Z pomocą użytkowników jest ona ciągle powiększana!</h8>
+                  </p>
+          </div>
+          
+                    <div class="bialy4"></div>
+
+          
+               <div class="bialy2">
+                                   <br/>
+
+                               <img src="ikona2.png" alt="pizza"  align="middle">
+                    <br/>
+              <h7>Niesamowita funkcjonalność</h7>
+                  <p>
+              <h8>Wyszukiwarka przepisów, lokalizator składników, sugestywny pomocnik i wiele więcej w jednym miejscu!</h8>
+                  </p>
+          </div>
+                    <div class="bialy4"></div>
+
+          
+           <div class="bialy3">
+                               <br/>
+
+                               <img src="ikona3.png" alt="pizza"  align="middle">
+                <br/>
+              <h7>Łatwa komunikacja</h7>
+                  <p>
+              <h8>Aplikacja służy prostym systemem, który pozwala użytkownikom na wzajemną prostą komunikację oraz wiele innych funkcji społecznościowych.</h8>
+                  </p>
+          </div>
+          
+                    <div class="bialy4"></div>
+
+          
+          <div class="czysci">
+          </div>
+          
+           <br/> <br/>
+          
+           <div class="szary">
+               <br/> <br/>
+               <h2>Podaj nam swój email, aby otrzymywać newsletter!</h2>
+                <br/>
+               
+               
+               <form action="/action_page.php">
+    <input type="text" id="imię" name="imię" placeholder="Twoje imię...">
+
+    <input type="text" id="nazwisko" name="nazwisko" placeholder="Twój email...">
+
+  
+    <input type="submit" value="Wyślij">
+  </form>
+               
+               
+        </div>
+          
+             <div class="czysci">
+          </div>
+           <br/> <br/>
+          <div class="duzyb">
+                     <br/> <br/>
+              <h9>Ściągnij naszą aplikację!</h9>
+                         <br/> <br/>
+
+                               <img src="play.png" alt="pl"   align="middle" style="width:50%">
+
+                            
+
+
+          </div>
+<div class="duzyb2">
+                         <br/> <br/>
+<h10>Dołącz do nas na mediach społecznościowych!</h10>
+                             <br/> <br/>
+                               <img src="facebook.png" alt="facebook"  align="middle" style="height:150px" >
+                                   <img src="twitter.png" alt="twitter"  align="middle" style="height:150px">
+
+
+          
+          </div>
+          
+          
+
+   <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      
+       <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+      
+        <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+          </div>
+  </body>
+</html>
